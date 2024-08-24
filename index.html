@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gioco dei Nomi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Gioco dei Nomi</h1>
+        <div id="input-area">
+            <input type="text" id="nome-input" placeholder="Inserisci un nome">
+            <button id="aggiungi-btn">Aggiungi Nome</button>
+            <button id="inizia-btn">Inizia Gioco</button>
+        </div>
+        <div id="game-area">
+            <div id="nomi-lista"></div>
+            <div id="controlli-gioco" style="display: none;">
+                <input type="number" id="primo-numero" min="1" placeholder="Primo numero">
+                <input type="number" id="secondo-numero" min="1" max="20" placeholder="Secondo numero">
+                <button id="conta-btn">Conta</button>
+            </div>
+        </div>
+        <div id="message-area"></div>
+        <button id="reset-btn" style="display: none;">Ricomincia Gioco</button>
+    </div>
+    <script src="giocoDeiNomi.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#game-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+input, button {
+    margin: 10px 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input {
+    background-color: #ecf0f1;
+    color: #34495e;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+#nomi-lista {
+    margin-top: 20px;
+    text-align: left;
+    color: #34495e;
+}
+
+#nomi-lista p {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+#message-area {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+#reset-btn {
+    background-color: #e74c3c;
+    color: white;
+    margin-top: 20px;
+}
+
+#reset-btn:hover {
+    background-color: #c0392b;
+}
